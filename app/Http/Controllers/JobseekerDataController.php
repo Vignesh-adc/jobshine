@@ -9,7 +9,7 @@ use Yajra\DataTables\DataTables;
 class JobseekerDataController extends Controller
 {
     public function index()
-    {
+    { //Dashboard Function
         return view('pages/dashboard');
     }
 
